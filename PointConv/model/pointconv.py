@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch
 import numpy as np
 import torch.nn.functional as F
-from utils.pointconv_util import PointConvDensitySetAbstraction
+from PointConv.utils.pointconv_util import PointConvDensitySetAbstraction
 
 class PointConvDensityClsSsg(nn.Module):
     def __init__(self, num_classes = 40):
